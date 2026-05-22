@@ -1,4 +1,4 @@
-from pkg_resources import null_ns_handler
+
 
 
 # # print("hello kavya")
@@ -12,10 +12,10 @@ from pkg_resources import null_ns_handler
 # print(a%b)
 
 # name="kavya"
-# surname="gorantla"
+# surname="naga"
 # print(name+surname)
 
-# wishlist='''i would like to tell about whishlist things to do, my whishlist things are i want to go outside at nyt time and njoy the nyt tym view in hyd'''
+# wishlist='''I would like to tell about wishlist things to do, my wishlist things are  want to go outside at nyt time and njoy the nyt tym view in hyd'''
 # print(wishlist)
 
 
@@ -45,7 +45,7 @@ from pkg_resources import null_ns_handler
 
 # num=int(input("enter the number:"))
 # if num > 0:
-#     print("postive")
+#     print("positive")
 # elif num < 0:
 #     print("negative")
 # else:
@@ -61,16 +61,6 @@ from pkg_resources import null_ns_handler
 
 # num=int(input("enter the number:"))
 # for i in range
-
-
-
-
-
-
-
-
-
-
 
 
 # print("my age:" + str("21"))
@@ -101,13 +91,13 @@ from pkg_resources import null_ns_handler
 # print(x,y,z)
 
 
-# arbitary parameters
+# orbitary parameters
 # positional arguments (*)
 # def fun(*a):
 #     print(a)
 #     print(*a)
 # fun(10,10,30,40,60)
-# *a means positional arguments in arbitary arguments it can pass any number of arguments by using the * symbol
+# *a means positional arguments in orbitary arguments it can pass any number of arguments by using the * symbol
 # it converts into tuple format it gives output in tuple format
 # print(*a) means unpacking the arguments
 
@@ -125,11 +115,11 @@ from pkg_resources import null_ns_handler
 # fun3(a=75,b=30,c=40,d=70)
 
 # def fun5(*a,*b):
-#     print(a,b,sepz"\n")
+#     print(a,b,sep"\n")
 # fun5(10,1,7,3,8,6,7,10)
 
 # def fun5(*a,**b):
-#     print(a,b,sepz"\n")
+#     print(a,b,sep"\n")
 # fun5(10,1,7,3,8,6,7,10)
 
 # def fun5(*A,**b):
@@ -157,5 +147,295 @@ from pkg_resources import null_ns_handler
 #      print(sum)
 # fun8(1,2,3,4,5,6)
 
-a=(1,2,3,4,5,7,7,8,8,10)
-print(sum(a[1:6:2]))
+# a=(1,2,3,4,5,7,7,8,8,10)
+# print(sum(a[1:6:2]))
+
+# a=1
+# while(a<=5):
+#     print(a)
+# a=a+1
+# n=253
+# c=0
+# while(n>0):
+#     n=n//10
+#     c=c+1
+#     print(c*10)
+# n=100
+# while(n>10):
+#     print(n)
+#     n=n>>1
+
+# a=3
+# while(a<33):
+#     print(a)
+#     a=a*2
+#     a=a-1
+# print(a)
+
+
+# def fun(x,y):
+#     print(x,y)
+#     return(x+y)
+# print(fun(10,20))
+
+# def great(a,b):
+#     if a>b:
+#         return a
+#     else:
+#         return b
+# print(great(75,77))
+
+# def fun(*a):
+#     return sum(a)
+# x=fun(1,7,8,6,5,3,2,8)
+# if x % 2==0:
+#       print(f"even: {x}")
+# else:
+#         print(f"odd: {x}")
+
+# def fun5(x,y):
+#      print(x+y)
+# z=fun5
+# print(z(10,45))
+# k=z(77,80)
+# print(k)
+
+# name=input("enter your name")
+# s=f"name:{name}"
+# print(s)
+a=10
+k=f"a:{a}"
+print(k)
+a=30
+print(k)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
