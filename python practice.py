@@ -154,9 +154,7 @@ from functools import reduce
 # import functools
 # num=['k', 'v', 'y', 'n', 'g', 'g', 'r', 'n', 't', 'l']
 # k=reduce(lambda x,y:x+y,num)
-# print(k)
-
-
+# print(k)git
 
 # num=[10,350,10,350,20]
 # k=list(map(id, num))
