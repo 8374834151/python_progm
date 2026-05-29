@@ -127,7 +127,41 @@ from functools import reduce
 # k=reduce(lambda x,y:x+y,nums,10)
 # print(k)
 
+# friday
 
-nums=[[1,2],[3,4],[5,6]]
-k=list(map(lambda x:x+[5],nums))
-print(k)
+# nums=[[1,2],[3,4],[5,6]]
+# k=list(map(lambda x:x+[5],nums))
+# print(k)
+#
+# d={"apple":100,"banana":40,"cherry":150}
+# # k=list(filter(lambda item:item[1]>50,d.items()))
+# print(k)
+
+# from functools import reduce
+# num=[12,13,15,26,56,78,86,90]
+# k=reduce(lambda x,y:x if x>y else y,num)
+# print(k)
+
+# num="kavya"
+# k=list(map(ord, num))
+# print(k)
+
+# num="kavya naga gorantla"
+# vowels="aeiouAEIOU"
+# k=list(filter(lambda x:x not in vowels,num))
+# print(k)
+
+# import functools
+# num=['k', 'v', 'y', 'n', 'g', 'g', 'r', 'n', 't', 'l']
+# k=reduce(lambda x,y:x+y,num)
+# print(k)
+
+
+
+# num=[10,350,10,350,20]
+# k=list(map(id, num))
+# print(k)
+import functools
+# num=[10,15,20,25,30]
+# k=reduce(lambda x,y:x+y,filter(lambda x: x%5==0,map(lambda x:x**2,num)))
+# print(k)
